@@ -7,7 +7,7 @@ import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
-import io.flutter.plugin.common.PluginRegistry.Registrar;
+
 
 
 import java.util.HashMap;
@@ -36,9 +36,7 @@ public class FlutterAuthPlugin implements FlutterPlugin {
     // them functionally equivalent. Only one of onAttachedToEngine or registerWith will be called
     // depending on the user's project. onAttachedToEngine or registerWith must both be defined
     // in the same class.
-    public static void registerWith(Registrar registrar) {
 
-    }
 
 
     @Override
