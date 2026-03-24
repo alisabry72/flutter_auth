@@ -1,7 +1,7 @@
 name: auth_provider
 description: A flutter authentication managemnt tool
 version: 2.0.9
-
+publish_to: none
 repository: https://github.com/AKWAD-Dragons/auth_provider
 
 environment:
@@ -17,12 +17,14 @@ dependencies:
   json_annotation: ^4.0.1
   sign_in_with_apple: ^6.1.4
   get_it: ^8.0.3
-  fly_networking: ^3.0.2
+  fly_networking:
+    git: 
+      url: https://github.com/alisabry72/fly
+      ref: flutter_v3.38
   firebase_core: ^4.4.0
   firebase_auth: ^6.1.4
 
-dependency_overrides: 
-  http: ^1.2.0
+
 dev_dependencies:
   build_runner: ^2.4.11
   flutter_test:
